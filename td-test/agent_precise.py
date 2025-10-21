@@ -1,7 +1,8 @@
 from evalscope.run import run_task
+from evalscope.config import TaskConfig
 
 
-task_cfg = Arguments(
+task_cfg = TaskConfig(
     model='Qwen3-30B-A3B-Instruct-2507',
     datasets=['gsm8k', 'arc'],
     api-url='http://127.0.0.1:1025/v1/chat/completions',
