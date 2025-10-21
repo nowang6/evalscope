@@ -58,3 +58,9 @@ all = {file = [
   "requirements/app.txt",
   "requirements/aigc.txt"
 ]}
+
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "primary"
