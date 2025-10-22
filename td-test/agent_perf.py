@@ -1,4 +1,4 @@
-rom evalscope.perf.main import run_perf_benchmark
+from evalscope.perf.main import run_perf_benchmark
 from evalscope.perf.arguments import Arguments
 
 task_cfg = Arguments(
